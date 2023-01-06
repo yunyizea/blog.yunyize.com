@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack serve",
-    "build": "rm -rf dist/* && npx webpack"
+    "build": "rm -rf dist/* && npx webpack",
+    "serve": "node server.js"
   },
   "repository": {
     "type": "git",
