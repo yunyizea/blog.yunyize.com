@@ -20,7 +20,7 @@
    git clone https://github.com/yunyizea/blog.yunyize.com.git
    cd EFE_FrontEndProjects
    yarn
-   yarn run build && yarn run server
+   yarn run build && yarn run serve
    ```
 
 2. 下载编译好的前端文件部署
