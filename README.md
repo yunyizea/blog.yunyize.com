@@ -18,7 +18,7 @@
 
    ```bash
    git clone https://github.com/yunyizea/blog.yunyize.com.git
-   cd EFE_FrontEnd-Projects
+   cd blog.yunyize.com/EFE_FrontEnd-Projects
    yarn
    yarn run build && yarn run serve
    ```
