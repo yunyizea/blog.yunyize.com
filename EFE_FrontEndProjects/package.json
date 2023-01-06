@@ -1,0 +1,37 @@
+{
+  "name": "blog_yunyize_com_frontEnd",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "webpack serve",
+    "server": "node server.js",
+    "build": "rm -rf dist/* && npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunyizea/blog.yunyize.com.git"
+  },
+  "author": "Yunyize",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/yunyizea/blog.yunyize.com/issues"
+  },
+  "homepage": "https://github.com/yunyizea/blog.yunyize.com#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "@vue/compiler-sfc": "^3.2.45",
+    "html-webpack-plugin": "^5.5.0",
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.1",
+    "vue-loader": "^17.0.1",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "vue": "^3.2.36",
+    "vue-router": "^4.0.13"
+  }
+}
