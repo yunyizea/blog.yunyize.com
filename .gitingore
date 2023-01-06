@@ -1,7 +1,0 @@
-/dist
-/node_modules
-/.idea
-
-*.log
-yarn.lock
-.DS_Store
