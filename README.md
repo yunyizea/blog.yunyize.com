@@ -12,13 +12,13 @@
 
 ## 🍟 食用 🍟 方法
 
-### 有两种部署方式
+### 前端项目有两种部署方式
 
-1. 使用源码编译部署
+1. 使用源码编译部署（yarn或者npm都可以）
 
    ```bash
    git clone https://github.com/yunyizea/blog.yunyize.com.git
-   cd blog.yunyize.com-frontEnd
+   cd EFE_FrontEndProjects
    yarn
    yarn run build && yarn run server
    ```
