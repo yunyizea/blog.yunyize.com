@@ -1,12 +1,10 @@
 {
   "name": "blog.yunyize.com-Rendering",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Yunyize <yunyize@yunyize.com>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
     "dev": "webpack serve",
-    "server": "node server.js",
     "build": "rm -rf dist/* && npx webpack"
   },
   "devDependencies": {
@@ -29,7 +27,6 @@
     "github-markdown-css": "^5.1.0",
     "highlight.js": "^11.7.0",
     "marked": "^4.2.5",
-    "vue": "^3.2.36",
-    "vue-router": "^4.0.13"
+    "vue": "^3.2.36"
   }
 }
