@@ -16,13 +16,13 @@
   },
   "homepage": "https://github.com/yunyizea/blog.yunyize.com#readme",
   "devDependencies": {
-    "typescript": "^4.9.4",
     "@vue/compiler-sfc": "^3.2.45",
-    "html-webpack-plugin": "^5.5.0",
     "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
-    "vue-loader": "^17.0.1",
     "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4",
+    "vue-loader": "^17.0.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1",
@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "axios": "^1.2.1",
+    "node-http-server": "^8.1.5",
     "vue": "^3.2.36",
     "vue-router": "^4.0.13"
   }
