@@ -1,6 +1,9 @@
 export default class yunyize_waterfallsFlow {
     private onDebounce: NodeJS.Timeout | null = null;
 
+    constructor() {
+    }
+
     public waterFall(items: Array<HTMLElement>, itemWidth: number, gap: number, father?: HTMLElement) {
         let viewWidth: number = father ? this.getClientInformation(father).width : this.getClientInformation().width;
         let boxRow: number = Math.floor(viewWidth / (itemWidth + gap));

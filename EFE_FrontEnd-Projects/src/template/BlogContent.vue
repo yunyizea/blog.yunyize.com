@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import {onMounted, ref} from "vue";
+import {ref, onMounted} from "vue";
 import axios from "axios";
 import yunyize_blog from "../script/function/lLibraryBlog";
 import yunyize_waterfallsFlow from "../script/function/lWaterfallsFlow";
@@ -13,6 +13,7 @@ import yunyize_waterfallsFlow from "../script/function/lWaterfallsFlow";
 import config from "../script/config";
 
 
+// noinspection JSUnusedGlobalSymbols
 export default {
   name: "BlogContent",
   setup: function () {
@@ -44,7 +45,7 @@ export default {
         // 数据请求到了 结束加载动画
         main.loadingAnimationOver(loadAni);
 
-        const blogItems = main.loadBlogs(data, container.value);
+        const blogItems = main.loadBlogs(data as Array<BlogsData>, container.value);
         main.showBlogItem(blogItems)
         main.optimizeContainerWidth(.6, 300, 25, container.value)
         wff.waterFall(blogItems, 300, 25, container.value)
